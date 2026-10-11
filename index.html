@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+// iPhone/iPad sound unlock: remember every AudioContext Unity creates and resume it on the first touch, click or key.
+(function(){var C=window.AudioContext||window.webkitAudioContext;if(!C)return;var list=[];
+function W(a){var c=a?new C(a):new C();list.push(c);return c}W.prototype=C.prototype;window.AudioContext=W;window.webkitAudioContext=W;
+function un(){list.forEach(function(c){if(c.state!=='running'&&c.resume)c.resume();});}
+['touchstart','touchend','mousedown','keydown','pointerdown'].forEach(function(e){window.addEventListener(e,un,{capture:true,passive:true});});})();
+</script>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes, viewport-fit=cover">
 <meta name="mobile-web-app-capable" content="yes">
