@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Neon Blaster 3D</title>
+<style>
+  html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #07020f; touch-action: none; -webkit-user-select: none; user-select: none; }
+  #unity-canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh; display: block; background: #07020f; outline: none; }
+  #unity-loading-bar { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 260px; text-align: center; font: bold 16px sans-serif; color: #ff4fd8; }
+  #unity-progress-bar-empty { margin-top: 10px; height: 10px; border: 2px solid #33f0ff; border-radius: 6px; }
+  #unity-progress-bar-full { width: 0%; height: 100%; background: #ff4fd8; border-radius: 4px; }
+  #rotate { display: none; position: fixed; inset: 0; z-index: 5; background: rgba(7,2,15,0.92); color: #33f0ff; font: bold 22px sans-serif; align-items: center; justify-content: center; text-align: center; }
+  @media (orientation: portrait) and (pointer: coarse) { #rotate { display: flex; } }
+  #unity-warning { position: fixed; left: 50%; top: 8px; transform: translateX(-50%); background: #fff; padding: 6px; display: none; z-index: 6; }
+</style>
+</head>
+<body>
+<canvas id="unity-canvas" tabindex="-1"></canvas>
+<div id="unity-loading-bar">NEON BLASTER 3D<div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div></div>
+<div id="rotate">Turn your phone sideways<br>to play ↻</div>
+<div id="unity-warning"></div>
+<script>
+  var canvas = document.querySelector("#unity-canvas");
+  var bar = document.querySelector("#unity-loading-bar");
+  var full = document.querySelector("#unity-progress-bar-full");
+  function showBanner(msg, type) {
+    var w = document.querySelector("#unity-warning");
+    w.style.display = "block"; w.textContent = msg;
+    if (type != "error") setTimeout(function () { w.style.display = "none"; }, 5000);
+  }
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && matchMedia("(pointer: coarse)").matches);
+  var config = {
+    dataUrl: "Build/webgl_showcase1.data.unityweb",
+    frameworkUrl: "Build/webgl_showcase1.framework.js.unityweb",
+    codeUrl: "Build/webgl_showcase1.wasm.unityweb",
+    streamingAssetsUrl: "StreamingAssets",
+    companyName: "Isaac Garcia",
+    productName: "Neon Blaster 3D",
+    productVersion: "1.0",
+    showBanner: showBanner,
+    // Phones have very sharp screens; rendering at full sharpness would be slow, so cap it.
+    devicePixelRatio: isMobile ? Math.min(window.devicePixelRatio || 1, 1.5) : Math.min(window.devicePixelRatio || 1, 2)
+  };
+  var script = document.createElement("script");
+  script.src = "Build/webgl_showcase1.loader.js";
+  script.onload = function () {
+    createUnityInstance(canvas, config, function (p) { full.style.width = 100 * p + "%"; })
+      .then(function () { bar.style.display = "none"; canvas.focus(); })
+      .catch(function (m) { alert(m); });
+  };
+  document.body.appendChild(script);
+  // Keyboard focus on desktop after any click; stop the page from scrolling on touch.
+  canvas.addEventListener("pointerdown", function () { canvas.focus(); });
+  document.addEventListener("touchmove", function (e) { e.preventDefault(); }, { passive: false });
+</script>
+</body>
+</html>
