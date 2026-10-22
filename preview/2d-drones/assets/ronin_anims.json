@@ -1,0 +1,369 @@
+{
+ "anims": [
+  {
+   "key": "ronin_idle",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "idle_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_03"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_04"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_05"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_06"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_07"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_08"
+    },
+    {
+     "key": "ronin",
+     "frame": "idle_09"
+    }
+   ],
+   "frameRate": 6,
+   "repeat": -1
+  },
+  {
+   "key": "ronin_run",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "run_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_03"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_04"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_05"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_06"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_07"
+    }
+   ],
+   "frameRate": 11,
+   "repeat": -1
+  },
+  {
+   "key": "ronin_fire",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "fire_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "fire_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "fire_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "fire_03"
+    }
+   ],
+   "frameRate": 15,
+   "repeat": -1
+  },
+  {
+   "key": "ronin_run_fire",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "run_fire_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_fire_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_fire_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_fire_03"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_fire_04"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_fire_05"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_fire_06"
+    },
+    {
+     "key": "ronin",
+     "frame": "run_fire_07"
+    }
+   ],
+   "frameRate": 9,
+   "repeat": -1
+  },
+  {
+   "key": "ronin_jump",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "jump_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "jump_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "jump_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "jump_03"
+    },
+    {
+     "key": "ronin",
+     "frame": "jump_04"
+    },
+    {
+     "key": "ronin",
+     "frame": "jump_05"
+    },
+    {
+     "key": "ronin",
+     "frame": "jump_06"
+    },
+    {
+     "key": "ronin",
+     "frame": "jump_07"
+    }
+   ],
+   "frameRate": 12,
+   "repeat": 0
+  },
+  {
+   "key": "ronin_fall",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "fall_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "fall_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "fall_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "fall_03"
+    }
+   ],
+   "frameRate": 6,
+   "repeat": -1
+  },
+  {
+   "key": "ronin_land",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "land_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "land_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "land_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "land_03"
+    }
+   ],
+   "frameRate": 10,
+   "repeat": 0
+  },
+  {
+   "key": "ronin_hit",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "hit_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "hit_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "hit_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "hit_03"
+    }
+   ],
+   "frameRate": 10,
+   "repeat": 0
+  },
+  {
+   "key": "ronin_death",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "death_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_03"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_04"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_05"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_06"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_07"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_08"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_09"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_10"
+    },
+    {
+     "key": "ronin",
+     "frame": "death_11"
+    }
+   ],
+   "frameRate": 10,
+   "repeat": 0
+  },
+  {
+   "key": "ronin_crouch_fire",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "crouch_fire_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "crouch_fire_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "crouch_fire_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "crouch_fire_03"
+    }
+   ],
+   "frameRate": 15,
+   "repeat": -1
+  },
+  {
+   "key": "ronin_hover",
+   "frames": [
+    {
+     "key": "ronin",
+     "frame": "hover_00"
+    },
+    {
+     "key": "ronin",
+     "frame": "hover_01"
+    },
+    {
+     "key": "ronin",
+     "frame": "hover_02"
+    },
+    {
+     "key": "ronin",
+     "frame": "hover_03"
+    },
+    {
+     "key": "ronin",
+     "frame": "hover_04"
+    },
+    {
+     "key": "ronin",
+     "frame": "hover_05"
+    }
+   ],
+   "frameRate": 6,
+   "repeat": -1
+  }
+ ]
+}
