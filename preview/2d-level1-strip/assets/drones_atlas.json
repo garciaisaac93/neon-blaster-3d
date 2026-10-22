@@ -1,0 +1,436 @@
+{
+ "frames": {
+  "patrol_hover_00": {
+   "frame": {
+    "x": 289,
+    "y": 321,
+    "w": 142,
+    "h": 122
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 68,
+    "w": 142,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "patrol_hover_01": {
+   "frame": {
+    "x": 1,
+    "y": 464,
+    "w": 142,
+    "h": 119
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 70,
+    "w": 142,
+    "h": 119
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "patrol_hover_02": {
+   "frame": {
+    "x": 433,
+    "y": 321,
+    "w": 142,
+    "h": 121
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 69,
+    "w": 142,
+    "h": 121
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "patrol_hover_03": {
+   "frame": {
+    "x": 145,
+    "y": 321,
+    "w": 142,
+    "h": 124
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 68,
+    "w": 142,
+    "h": 124
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "patrol_fire_00": {
+   "frame": {
+    "x": 1,
+    "y": 321,
+    "w": 142,
+    "h": 141
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 53,
+    "y": 68,
+    "w": 142,
+    "h": 141
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fast_hover_00": {
+   "frame": {
+    "x": 483,
+    "y": 464,
+    "w": 161,
+    "h": 91
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 44,
+    "y": 77,
+    "w": 161,
+    "h": 91
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fast_hover_01": {
+   "frame": {
+    "x": 165,
+    "y": 585,
+    "w": 163,
+    "h": 83
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 44,
+    "y": 82,
+    "w": 163,
+    "h": 83
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fast_hover_02": {
+   "frame": {
+    "x": 1,
+    "y": 585,
+    "w": 162,
+    "h": 91
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 44,
+    "y": 77,
+    "w": 162,
+    "h": 91
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fast_hover_03": {
+   "frame": {
+    "x": 320,
+    "y": 464,
+    "w": 161,
+    "h": 98
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 44,
+    "y": 73,
+    "w": 161,
+    "h": 98
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fast_fire_00": {
+   "frame": {
+    "x": 145,
+    "y": 464,
+    "w": 173,
+    "h": 111
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 32,
+    "y": 77,
+    "w": 173,
+    "h": 111
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "heavy_hover_00": {
+   "frame": {
+    "x": 218,
+    "y": 170,
+    "w": 211,
+    "h": 148
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 25,
+    "y": 58,
+    "w": 211,
+    "h": 148
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "heavy_hover_01": {
+   "frame": {
+    "x": 431,
+    "y": 170,
+    "w": 214,
+    "h": 143
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 22,
+    "y": 60,
+    "w": 214,
+    "h": 143
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "heavy_hover_02": {
+   "frame": {
+    "x": 1,
+    "y": 170,
+    "w": 215,
+    "h": 149
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 21,
+    "y": 58,
+    "w": 215,
+    "h": 149
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "heavy_hover_03": {
+   "frame": {
+    "x": 234,
+    "y": 1,
+    "w": 213,
+    "h": 155
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 23,
+    "y": 56,
+    "w": 213,
+    "h": 155
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "heavy_fire_00": {
+   "frame": {
+    "x": 1,
+    "y": 1,
+    "w": 231,
+    "h": 167
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 57,
+    "w": 231,
+    "h": 167
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 250
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ },
+ "meta": {
+  "app": "drones_v1/tools/post_pack.py",
+  "version": "1.0",
+  "image": "drones_atlas.webp",
+  "format": "RGBA8888",
+  "size": {
+   "w": 654,
+   "h": 677
+  },
+  "scale": "1",
+  "note": "2x atlas (same as ronin_atlas): draw at 0.585 for design px. pivot = drone centre. Drones face LEFT."
+ }
+}
