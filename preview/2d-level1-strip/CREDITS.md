@@ -1,4 +1,4 @@
-# Neon Blaster 2D: sound effect credits (v6; v7 jump, v8 charge shot, v9 Oni Enforcer boss)
+# Neon Blaster 2D: sound effect credits (v6; v7 jump, v8 charge shot, v9 Oni Enforcer boss, v12 Triple Shot)
 
 ## Sound effects shipped in this build (assets/sfx/, each as .ogg Vorbis q3 + .m4a AAC-LC 64k, mono 44.1 kHz)
 All sound effects come from four Kenney audio packs, released under **Creative Commons Zero (CC0 1.0)**
@@ -44,10 +44,14 @@ Edits (tools/make_sfx.py): layering / pitch shifts as listed, silence trimmed, s
 | oni_hit.ogg / .m4a | boss takes damage (blast 0.8x) (v9) | Impact Sounds impactPlate_heavy_000.ogg (low-passed) + Sci-fi Sounds impactMetal_002.ogg (high-passed) - boss armour hit | 0.28 s | CC0 1.0 |
 | oni_block.ogg / .m4a | normal shot deflected by his guard (v9) | Impact Sounds impactMetal_light_002.ogg (high-passed) + Interface Sounds glass_005.ogg (+5 st) - shot deflected by the guard | 0.18 s | CC0 1.0 |
 | oni_boom.ogg / .m4a | boss defeat explosion (v9) | Sci-fi Sounds explosionCrunch_003.ogg + explosionCrunch_001.ogg (+0.35 s) + lowFrequency_explosion_001.ogg (low-passed) + Impact Sounds impactMetal_heavy_004.ogg - boss defeat explosion, 2.0 s | 1.71 s | CC0 1.0 |
+| triple_get.ogg / .m4a | Triple Shot pickup (v12) | Digital Audio powerUp7.ogg + laser4.ogg x3 (0 / +4 / +7 st, 80 ms apart) + Interface Sounds glass_002.ogg (+12 st) | 0.49 s | CC0 1.0 |
+| triple_end.ogg / .m4a | Triple Shot runs out (v12) | Digital Audio lowDown.ogg (+5 st) + Interface Sounds glass_002.ogg (-5 st) | 0.44 s | CC0 1.0 |
+
+Triple Shot pickup + HUD icon (v12, assets/triple_pickup.png, assets/triple_hud.png): drawn in code for this project (tools/make_triple_pickup.py, PIL + DejaVu Sans Bold for the "3"; DejaVu fonts are under the free Bitstream Vera / DejaVu license). No third-party art.
 
 Boss art (v9): the Oni Enforcer sprites (assets/oni_atlas.webp) were made for this project from Isaac's concept sheet v4; no third-party art.
 
-Total (30 sounds): 221,315 bytes ogg + 181,296 bytes m4a (a browser loads one format: ~221 KB ogg or ~181 KB m4a).
+Total (32 sounds, v12): 234,067 bytes ogg + 191,192 bytes m4a (a browser loads one format: ~234 KB ogg or ~191 KB m4a).
 
 ---
 
