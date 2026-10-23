@@ -21,7 +21,7 @@ Edits (tools/make_sfx.py): layering / pitch shifts as listed, silence trimmed, s
 | enemy_shot.ogg / .m4a | drone shot (heavy 0.85x, fast 1.12x rate) | Sci-fi Sounds laserRetro_002.ogg, pitched -4 semitones | 0.29 s | CC0 1.0 |
 | hurt.ogg / .m4a | Ronin hit | Impact Sounds impactPunch_medium_000.ogg + Interface Sounds error_007.ogg (-3 st buzz layer) | 0.29 s | CC0 1.0 |
 | death.ogg / .m4a | Ronin death | Digital Audio zapThreeToneDown.ogg + Sci-fi Sounds lowFrequency_explosion_001.ogg (low-passed) | 1.27 s | CC0 1.0 |
-| jump.ogg / .m4a | jump (heel boosters) | Digital Audio phaseJump2.ogg | 0.34 s | CC0 1.0 |
+| jump.ogg / .m4a | jump (heel boosters) | Impact Sounds footstep_concrete_000.ogg + Sci-fi Sounds thrusterFire_003.ogg (first 0.35 s) | 0.33 s | CC0 1.0 |
 | boost.ogg / .m4a | jetpack ignition burst (each hover start) | Sci-fi Sounds thrusterFire_001.ogg (first 0.45 s, burst) | 0.41 s | CC0 1.0 |
 | hover_loop.ogg / .m4a | quiet thruster loop while hovering | Sci-fi Sounds thrusterFire_000.ogg (1.2-2.58 s, low-passed, crossfaded into a 1.2 s seamless loop) | 1.20 s | CC0 1.0 |
 | land.ogg / .m4a | landing thud | Impact Sounds impactSoft_medium_000.ogg (low-passed) | 0.12 s | CC0 1.0 |
