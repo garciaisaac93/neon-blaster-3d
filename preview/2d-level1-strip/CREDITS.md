@@ -1,3 +1,40 @@
+# Neon Blaster 2D: sound effect credits (v6)
+
+## Sound effects shipped in this build (assets/sfx/, each as .ogg Vorbis q3 + .m4a AAC-LC 64k, mono 44.1 kHz)
+All sound effects come from four Kenney audio packs, released under **Creative Commons Zero (CC0 1.0)**
+(http://creativecommons.org/publicdomain/zero/1.0/): free for personal, educational and commercial use, no attribution required.
+Credit (optional, kindly requested by the author): "Sound effects by Kenney (www.kenney.nl)".
+Packs (downloaded 2026-10-22 from kenney.nl; License.txt in each zip says CC0):
+- Sci-fi Sounds 1.0 - https://kenney.nl/assets/sci-fi-sounds
+- Impact Sounds - https://kenney.nl/assets/impact-sounds
+- Interface Sounds - https://kenney.nl/assets/interface-sounds
+- Digital Audio - https://kenney.nl/assets/digital-audio
+
+Edits (tools/make_sfx.py): layering / pitch shifts as listed, silence trimmed, short fades, loudness-normalised, re-encoded. No other sources and no synthesized sounds.
+
+| Shipped file | Used for | Kenney source (pack + file, edits) | Length | License |
+|---|---|---|---|---|
+| shot.ogg / .m4a | Ronin blaster shot | Sci-fi Sounds laserSmall_000.ogg (trimmed to 0.24 s) | 0.24 s | CC0 1.0 |
+| hit.ogg / .m4a | shot hits a drone (not a kill) | Sci-fi Sounds impactMetal_004.ogg (high-passed) + Interface Sounds glass_002.ogg (tick layer), 0.22 s | 0.18 s | CC0 1.0 |
+| boom_s.ogg / .m4a | patrol / fast drone explosion (fast: rate 1.1) | Sci-fi Sounds explosionCrunch_000.ogg | 0.72 s | CC0 1.0 |
+| boom_l.ogg / .m4a | heavy drone explosion | Sci-fi Sounds explosionCrunch_002.ogg + lowFrequency_explosion_001.ogg (low-passed sub layer), 1.25 s | 1.24 s | CC0 1.0 |
+| enemy_shot.ogg / .m4a | drone shot (heavy 0.85x, fast 1.12x rate) | Sci-fi Sounds laserRetro_002.ogg, pitched -4 semitones | 0.29 s | CC0 1.0 |
+| hurt.ogg / .m4a | Ronin hit | Impact Sounds impactPunch_medium_000.ogg + Interface Sounds error_007.ogg (-3 st buzz layer) | 0.29 s | CC0 1.0 |
+| death.ogg / .m4a | Ronin death | Digital Audio zapThreeToneDown.ogg + Sci-fi Sounds lowFrequency_explosion_001.ogg (low-passed) | 1.27 s | CC0 1.0 |
+| jump.ogg / .m4a | jump (heel boosters) | Digital Audio phaseJump2.ogg | 0.34 s | CC0 1.0 |
+| boost.ogg / .m4a | jetpack ignition burst (each hover start) | Sci-fi Sounds thrusterFire_001.ogg (first 0.45 s, burst) | 0.41 s | CC0 1.0 |
+| hover_loop.ogg / .m4a | quiet thruster loop while hovering | Sci-fi Sounds thrusterFire_000.ogg (1.2-2.58 s, low-passed, crossfaded into a 1.2 s seamless loop) | 1.20 s | CC0 1.0 |
+| land.ogg / .m4a | landing thud | Impact Sounds impactSoft_medium_000.ogg (low-passed) | 0.12 s | CC0 1.0 |
+| pickup.ogg / .m4a | energy cell (rate steps +1 semitone per quick pickup, max +5) | Interface Sounds glass_001.ogg + the same pitched +7 st, 45 ms later (two-note chime) | 0.26 s | CC0 1.0 |
+| checkpoint.ogg / .m4a | checkpoint reached | Interface Sounds confirmation_004.ogg | 0.49 s | CC0 1.0 |
+| pit.ogg / .m4a | fall into a pit | Digital Audio lowDown.ogg | 0.63 s | CC0 1.0 |
+| complete.ogg / .m4a | LEVEL COMPLETE jingle | Digital Audio powerUp11.ogg + Interface Sounds glass_004.ogg stacked as a major chord (0/+4/+7/+12 st) | 0.79 s | CC0 1.0 |
+| ui.ogg / .m4a | title screen tap | Interface Sounds maximize_008.ogg | 0.21 s | CC0 1.0 |
+
+Total: 110,884 bytes ogg + 90,014 bytes m4a (a browser loads one format: ~108 KB ogg or ~87 KB m4a).
+
+---
+
 # Neon Blaster 2D (Level 1 'Neon Street' preview): music credits
 
 ## Music shipped in this build (assets/audio/, each as .ogg + .m4a, re-encoded ~96 kbps)
