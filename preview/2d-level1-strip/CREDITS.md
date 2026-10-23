@@ -1,4 +1,4 @@
-# Neon Blaster 2D: sound effect credits (v6; v7 jump, v8 charge shot)
+# Neon Blaster 2D: sound effect credits (v6; v7 jump, v8 charge shot, v9 Oni Enforcer boss)
 
 ## Sound effects shipped in this build (assets/sfx/, each as .ogg Vorbis q3 + .m4a AAC-LC 64k, mono 44.1 kHz)
 All sound effects come from four Kenney audio packs, released under **Creative Commons Zero (CC0 1.0)**
@@ -34,8 +34,20 @@ Edits (tools/make_sfx.py): layering / pitch shifts as listed, silence trimmed, s
 | charge_loop.ogg / .m4a | charge shot: quiet hum loop while fully charged (v8) | Sci-fi Sounds forceField_000.ogg (0.15-0.89 s, low-passed, crossfaded into a 0.6 s seamless loop) | 0.60 s | CC0 1.0 |
 | charge_ready.ogg / .m4a | charge shot: ready ping at full charge (v8) | Interface Sounds glass_003.ogg stacked 0 / +7 / +12 st, 30 ms apart (ready ping) | 0.12 s | CC0 1.0 |
 | blast.ogg / .m4a | charged blast release (v8) | Sci-fi Sounds laserLarge_000.ogg + lowFrequency_explosion_001.ogg (first 0.5 s, low-passed sub) + Impact Sounds impactPunch_heavy_000.ogg (low-passed thump), 0.75 s | 0.68 s | CC0 1.0 |
+| oni_thud.ogg / .m4a | Oni Enforcer lands (intro) / collapses (defeat, 0.9x) (v9) | Impact Sounds impactPunch_heavy_001.ogg + impactMetal_heavy_000.ogg (low-passed) + Sci-fi Sounds lowFrequency_explosion_000.ogg (first 0.9 s, low-passed sub) - boss landing | 0.90 s | CC0 1.0 |
+| oni_roar.ogg / .m4a | Oni Enforcer roar (intro, phase 2 1.08x, defeat 0.85x) (v9) | Sci-fi Sounds spaceEngineLarge_002.ogg (low-passed, glide -4 -> -10 st) + forceField_003.ogg (-10 st) + Digital Audio phaserDown2.ogg (-12 -> -16 st) - mech roar, 1.2 s | 1.26 s | CC0 1.0 |
+| oni_stomp.ogg / .m4a | Oni Enforcer footstep (v9) | Impact Sounds impactMetal_heavy_002.ogg (low-passed) + footstep_concrete_002.ogg (-6 st) - boss footstep | 0.15 s | CC0 1.0 |
+| oni_windup.ogg / .m4a | katana wind-up telegraph (also the drop-in whoosh, 0.6x) (v9) | Sci-fi Sounds forceField_002.ogg (glide -6 -> +3 st, 0.55 s) + Interface Sounds glass_005.ogg (-5 st ping) - katana wind-up | 0.55 s | CC0 1.0 |
+| oni_slash.ogg / .m4a | energy-katana slash (v9) | Sci-fi Sounds thrusterFire_002.ogg (high-passed noise, glide +6 -> -6 st, hann swell) + laserLarge_002.ogg (-7 st) - energy-katana whoosh | 0.44 s | CC0 1.0 |
+| oni_cannon_charge.ogg / .m4a | shoulder cannon aim / charge (phase 2: 1.25x) (v9) | Sci-fi Sounds forceField_001.ogg (glide -10 -> 0 st) + Digital Audio phaserUp4.ogg (glide -8 -> -2 st, quiet) - cannon charge, 0.8 s | 0.79 s | CC0 1.0 |
+| oni_cannon_fire.ogg / .m4a | shoulder cannon shot (v9) | Sci-fi Sounds laserLarge_003.ogg (-4 st) + lowFrequency_explosion_000.ogg (first 0.35 s, low-passed) - cannon shot | 0.57 s | CC0 1.0 |
+| oni_hit.ogg / .m4a | boss takes damage (blast 0.8x) (v9) | Impact Sounds impactPlate_heavy_000.ogg (low-passed) + Sci-fi Sounds impactMetal_002.ogg (high-passed) - boss armour hit | 0.28 s | CC0 1.0 |
+| oni_block.ogg / .m4a | normal shot deflected by his guard (v9) | Impact Sounds impactMetal_light_002.ogg (high-passed) + Interface Sounds glass_005.ogg (+5 st) - shot deflected by the guard | 0.18 s | CC0 1.0 |
+| oni_boom.ogg / .m4a | boss defeat explosion (v9) | Sci-fi Sounds explosionCrunch_003.ogg + explosionCrunch_001.ogg (+0.35 s) + lowFrequency_explosion_001.ogg (low-passed) + Impact Sounds impactMetal_heavy_004.ogg - boss defeat explosion, 2.0 s | 1.71 s | CC0 1.0 |
 
-Total (20 sounds): 142,853 bytes ogg + 113,729 bytes m4a (a browser loads one format: ~139 KB ogg or ~111 KB m4a).
+Boss art (v9): the Oni Enforcer sprites (assets/oni_atlas.webp) were made for this project from Isaac's concept sheet v4; no third-party art.
+
+Total (30 sounds): 221,315 bytes ogg + 181,296 bytes m4a (a browser loads one format: ~221 KB ogg or ~181 KB m4a).
 
 ---
 
@@ -46,7 +58,7 @@ Total (20 sounds): 142,853 bytes ogg + 113,729 bytes m4a (a browser loads one fo
 |---|---|---|---|
 | menu_chill_lofi_loop.ogg / .m4a | title screen | slot2_a_chill_lofi_inspired_loop.ogg | CC0 1.0 |
 | level_neon_pagoda.ogg / .m4a | level | slot1_a_neon_pagoda.mp3 | CC-BY 4.0 |
-| boss_mist_city.ogg / .m4a | end arena (boss placeholder) | slot3_a_mist_city.ogg | CC-BY 4.0 |
+| boss_mist_city.ogg / .m4a | end arena: Oni Enforcer boss fight | slot3_a_mist_city.ogg | CC-BY 4.0 |
 
 In-game credits (title screen):
 - "Neon Pagoda" by joeBaxterWebb (https://opengameart.org/content/neon-pagoda), licensed CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

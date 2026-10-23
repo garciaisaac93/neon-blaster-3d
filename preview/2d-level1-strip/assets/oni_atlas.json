@@ -1,0 +1,337 @@
+{
+ "frames": {
+  "idle_0": {
+   "frame": {
+    "x": 880,
+    "y": 603,
+    "w": 261,
+    "h": 486
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 150,
+    "y": 126,
+    "w": 261,
+    "h": 486
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "idle_1": {
+   "frame": {
+    "x": 1143,
+    "y": 603,
+    "w": 261,
+    "h": 486
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 150,
+    "y": 126,
+    "w": 261,
+    "h": 486
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "idle_2": {
+   "frame": {
+    "x": 1406,
+    "y": 603,
+    "w": 261,
+    "h": 486
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 150,
+    "y": 126,
+    "w": 261,
+    "h": 486
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "idle_3": {
+   "frame": {
+    "x": 1669,
+    "y": 603,
+    "w": 261,
+    "h": 486
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 150,
+    "y": 126,
+    "w": 261,
+    "h": 486
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "walk_0": {
+   "frame": {
+    "x": 1291,
+    "y": 0,
+    "w": 366,
+    "h": 498
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 97,
+    "y": 114,
+    "w": 366,
+    "h": 498
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "walk_1": {
+   "frame": {
+    "x": 1006,
+    "y": 0,
+    "w": 283,
+    "h": 499
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 145,
+    "y": 113,
+    "w": 283,
+    "h": 499
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "walk_2": {
+   "frame": {
+    "x": 357,
+    "y": 0,
+    "w": 275,
+    "h": 501
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 139,
+    "y": 111,
+    "w": 275,
+    "h": 501
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "walk_3": {
+   "frame": {
+    "x": 634,
+    "y": 0,
+    "w": 370,
+    "h": 501
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 99,
+    "y": 111,
+    "w": 370,
+    "h": 501
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "katana_windup": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 355,
+    "h": 601
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 107,
+    "y": 11,
+    "w": 355,
+    "h": 601
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "katana_slash": {
+   "frame": {
+    "x": 774,
+    "y": 1102,
+    "w": 528,
+    "h": 459
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 11,
+    "y": 153,
+    "w": 528,
+    "h": 459
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "cannon_aim": {
+   "frame": {
+    "x": 0,
+    "y": 603,
+    "w": 397,
+    "h": 497
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 90,
+    "y": 115,
+    "w": 397,
+    "h": 497
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "cannon_fire": {
+   "frame": {
+    "x": 399,
+    "y": 603,
+    "w": 479,
+    "h": 490
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 27,
+    "y": 122,
+    "w": 479,
+    "h": 490
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "hurt_recoil": {
+   "frame": {
+    "x": 0,
+    "y": 1102,
+    "w": 419,
+    "h": 481
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 66,
+    "y": 131,
+    "w": 419,
+    "h": 481
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "defeat_0": {
+   "frame": {
+    "x": 421,
+    "y": 1102,
+    "w": 351,
+    "h": 472
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 126,
+    "y": 140,
+    "w": 351,
+    "h": 472
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "defeat_1": {
+   "frame": {
+    "x": 1304,
+    "y": 1102,
+    "w": 326,
+    "h": 377
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 159,
+    "y": 235,
+    "w": 326,
+    "h": 377
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  },
+  "defeat_2": {
+   "frame": {
+    "x": 0,
+    "y": 1585,
+    "w": 457,
+    "h": 239
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 58,
+    "y": 373,
+    "w": 457,
+    "h": 239
+   },
+   "sourceSize": {
+    "w": 550,
+    "h": 623
+   }
+  }
+ },
+ "meta": {
+  "image": "oni_atlas.webp",
+  "size": {
+   "w": 2048,
+   "h": 1824
+  },
+  "scale": 1,
+  "origin": [
+   0.5218181818181818,
+   0.9823434991974318
+  ],
+  "note": "Oni Enforcer v4 (1.8x Ronin), facing LEFT, feet origin; setScale(0.5*R)"
+ }
+}
