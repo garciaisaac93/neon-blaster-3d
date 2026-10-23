@@ -1,4 +1,4 @@
-# Neon Blaster 2D: sound effect credits (v6)
+# Neon Blaster 2D: sound effect credits (v6; v7 jump, v8 charge shot)
 
 ## Sound effects shipped in this build (assets/sfx/, each as .ogg Vorbis q3 + .m4a AAC-LC 64k, mono 44.1 kHz)
 All sound effects come from four Kenney audio packs, released under **Creative Commons Zero (CC0 1.0)**
@@ -30,8 +30,12 @@ Edits (tools/make_sfx.py): layering / pitch shifts as listed, silence trimmed, s
 | pit.ogg / .m4a | fall into a pit | Digital Audio lowDown.ogg | 0.63 s | CC0 1.0 |
 | complete.ogg / .m4a | LEVEL COMPLETE jingle | Digital Audio powerUp11.ogg + Interface Sounds glass_004.ogg stacked as a major chord (0/+4/+7/+12 st) | 0.79 s | CC0 1.0 |
 | ui.ogg / .m4a | title screen tap | Interface Sounds maximize_008.ogg | 0.21 s | CC0 1.0 |
+| charge_rise.ogg / .m4a | charge shot: rising hum while charging (v8) | Sci-fi Sounds forceField_000.ogg (low-passed, pitch glide -9 -> 0 st, swelling) + Digital Audio phaserUp3.ogg (glide -5 -> +2 st, quiet), 1.0 s | 0.96 s | CC0 1.0 |
+| charge_loop.ogg / .m4a | charge shot: quiet hum loop while fully charged (v8) | Sci-fi Sounds forceField_000.ogg (0.15-0.89 s, low-passed, crossfaded into a 0.6 s seamless loop) | 0.60 s | CC0 1.0 |
+| charge_ready.ogg / .m4a | charge shot: ready ping at full charge (v8) | Interface Sounds glass_003.ogg stacked 0 / +7 / +12 st, 30 ms apart (ready ping) | 0.12 s | CC0 1.0 |
+| blast.ogg / .m4a | charged blast release (v8) | Sci-fi Sounds laserLarge_000.ogg + lowFrequency_explosion_001.ogg (first 0.5 s, low-passed sub) + Impact Sounds impactPunch_heavy_000.ogg (low-passed thump), 0.75 s | 0.68 s | CC0 1.0 |
 
-Total: 110,884 bytes ogg + 90,014 bytes m4a (a browser loads one format: ~108 KB ogg or ~87 KB m4a).
+Total (20 sounds): 142,853 bytes ogg + 113,729 bytes m4a (a browser loads one format: ~139 KB ogg or ~111 KB m4a).
 
 ---
 
